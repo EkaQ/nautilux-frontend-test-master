@@ -1,0 +1,179 @@
+#wrapper_new_intervention {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 32%;
+    margin: 40px 0 20px 0;
+}
+#btn_new_intervention {
+    padding: 10px 20px;
+    background-color: #FFD500;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 220px;
+}
+#interventions_count {
+    color: #ccc;
+    font-weight: 600;
+}
+#header_table {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+}
+.header_table_elem {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    padding: 0 20px 0 0;
+}
+.header_table_elem_button::after {
+    content: url('../images/double_caret.png');
+    left: 5px;
+    position: relative;
+}
+.intervention_line {
+    padding: 10px 0;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding-left: 40px;
+    font-weight: 500;
+    align-items: center;
+    cursor: pointer;
+    color: #2B2B2B;
+    text-decoration: none;
+}
+.intervention_line:hover {
+    background-color: #FFFAE3;
+    text-decoration: none;
+    color: black;
+}
+ul {
+    padding: 0;
+}
+.table_elem {
+    padding: 0 20px 0 0;
+}
+
+.table_elem_date {
+    width: 90px;
+}
+.table_elem_name {
+    width: 180px;
+    font-weight: 600;
+}
+.table_elem_date {
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+.table_elem_description {
+    width: 450px;
+}
+.table_elem_sender {
+    width: 130px;
+}
+.table_elem_senderinfos {
+    width: 180px;
+}
+.date_flat {
+    background-color: #2B2B2B;
+    color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    line-height: 15px;
+    justify-content: center;
+}
+.date_flat_number {
+    font-size: 20px;
+}
+.date_flat_text {
+    font-size: 15px;
+}
+#btn_back {
+    padding: 10px 30px;
+    background-color: white;
+    color: #8D8D8D;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 1px solid #8D8D8D;
+}
+#wrapper_intervention_details {
+    width: 555px;
+    margin: 35px auto;
+}
+.container_details {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 10px;
+}
+.name_detail {
+    font-size: 18px;
+    font-weight: 700;
+}
+.description_detail_title, 
+.demandeur_detail_title {
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.demandeur_detail {
+    font-weight: 700;
+}
+.c-form_container {
+    margin: 35px auto;
+    width: 555px;
+}
+.c-form {
+    display: block;
+    border: none;
+}
+.c-label {
+    display: block;
+    width: 100%;
+    line-height: 1.2;
+    padding: 0px 0 0px 0;
+    margin: 20px 0 0px 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+fieldset { 
+    padding: 0;
+}
+textarea:focus, input:focus {
+    color: #2B2B2B;
+}
+input::placeholder{
+    color: #f00;
+  }
+.c-input-field {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+}
+.buttons_form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.c-button {
+    padding: 10px 30px;
+    background-color: #FFFAE3;
+    color: #FFD500;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 1px solid #FFFAE3;
+}
+
